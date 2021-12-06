@@ -5,7 +5,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Videos from './Videos';
-import videos1 from './videos/026bd459fc3cdfb17e3063ea3b61ee22.mp4'
+import videos1 from './videos/7e9003981b3d2934030a0d5bd28a18f8.mp4'
 import videos2 from './videos/0f085fb77e801e8fb77ac4798bb8d09d.mp4'
 import videos3 from './videos/12bac53242b5832da780d72913a7622a.mp4'
 function VideoCard() {
