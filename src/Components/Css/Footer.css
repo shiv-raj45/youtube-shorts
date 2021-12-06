@@ -1,0 +1,119 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    margin-top: 120%;
+    height: fit-content;
+   min-height: 3rem;
+    padding: .4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000000000;
+background: transparent;
+padding-bottom: 1rem;
+color: white;
+}
+.footer>*{
+    z-index: 1000000000000;
+}
+
+.caption{
+    text-align: left;
+    width: 80%;
+    align-self: flex-start;
+}
+.channel{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+padding: .3rem;
+margin: .3rem;
+}
+.channel_left{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+flex: .6;
+font-weight: bold;
+    align-items: center;
+padding-bottom: .3rem;
+}
+.channel_avatar{
+box-sizing: border-box;
+    background: orange !important;
+width:1.5rem !important;
+height: 1.5rem !important;
+border: 2px solid white;
+font-size: 1rem !important ;
+font-weight: bold !important;
+}
+
+.subscribe_button{
+box-sizing: border-box;
+outline: none;
+border: none;
+color: white;
+background: rgb(202, 22, 22);
+padding: .3rem;
+text-transform: uppercase;
+
+}
+.channel_right{
+flex: .4;
+display: flex;
+justify-content: flex-end;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+.container_overlay, .avatar_container{
+    box-sizing: border-box;
+    margin-right: 1rem;
+    background: white;
+height: 2.8rem;
+width: 2.8rem;
+display: flex;
+justify-content: center;
+align-items: center;
+right: .5rem;
+border-radius: .4rem;
+    position: absolute;
+bottom: 2rem;
+}
+
+.container_overlay{
+ background: rgba(78, 78, 78,.6);
+ display: flex;
+ justify-content: space-evenly;
+ 
+}
+.container_overlay >li{
+    list-style: none;
+    
+    width: 3px;
+    height: 70%;
+    background: white;
+    border-radius: .4rem;
+animation: spring 1.5s linear infinite alternate;
+
+}
+@keyframes spring {
+    from{
+height: 10%;
+    }
+    to{
+height: 80%;
+
+    }
+}
+
+.container_overlay li:nth-child(1),.container_overlay li:nth-child(5){
+    animation-delay: .2s;
+}
+.container_overlay li:nth-child(2),.container_overlay li:nth-child(4){
+    animation-delay: .6s;
+}
+.container_overlay li:nth-child(3){
+animation-delay: 1s;
+}

@@ -1,0 +1,19 @@
+.header{
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+    padding: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000000000;
+background: linear-gradient(rgba(95, 94, 94, 0.5),transparent);
+}
+.header_icon{
+    color: white;
+    font-size: 2rem !important;
+    margin: .6rem;
+}
+.header_icon:last-child{
+    margin-right: 1.5rem;
+}

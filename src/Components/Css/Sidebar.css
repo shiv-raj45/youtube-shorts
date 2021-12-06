@@ -1,0 +1,27 @@
+.sidebar{
+    position: absolute;
+    right: .3rem;
+    display: flex;
+    flex-direction: column;
+width: 50px;
+height: 55%;
+margin-top: 38%;
+justify-content: space-between;
+align-items:center;
+
+z-index: 10000;
+}
+.side_icon{
+    display: flex;
+    flex-direction: column;
+    margin: .7rem 0;
+    color: white;
+
+}
+.icons{
+    font-size: 1.9rem !important; 
+
+}
+.icon_text{
+    font-size: .8rem;
+}
