@@ -57,8 +57,7 @@ const interact=()=>{
 
 
             {vids.map((vid, i) => <> <Header />
-            <Sidebar comments={vid.comments} likes={vid.likes} 
-            setVids={setVids} vids={vids} vid={vid} /> 
+            <Sidebar comments={vid.comments} likes={vid.likes}  /> 
              <Footer caption={vid.caption} channelName={vid.channelName} />
              <Videos key={i} vid={vid} mute={mute} setMute={setMute}  />  </>)}
 
